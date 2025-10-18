@@ -1,0 +1,30 @@
+//Q3. Write a Java program to check whether a triangle is equilateral , isoscale  or scalene
+import java.util.*;
+public class DM_check_triangle_equi_iso_scalene
+{
+	public static void main(String x[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the angle1:");
+		int angle1 = sc.nextInt();
+
+		System.out.println("Enter the angle2:");
+		int angle2 = sc.nextInt();
+		
+		System.out.println("Enter the angle3:");
+		int angle3 = sc.nextInt();
+
+		if(angle1 + angle2 + angle3 == 180)
+		{
+			System.out.println("Triangle is Equilateral");
+		}
+		else if(angle1 != angle2)
+		{
+			System.out.println("Triangle is Scalene");
+		}
+		else
+		{
+			System.out.println("Triangle is Isoscale");
+		}
+	}
+}

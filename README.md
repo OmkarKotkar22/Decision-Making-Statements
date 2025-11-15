@@ -4,6 +4,15 @@ A Java project demonstrating the effective use of conditional logic (`if`, `else
 
 ---
 
+## 📋 Table of Contents
+
+* [Project Goal](#-project-goal)
+* [Decision Logic Breakdown](#-decision-logic-breakdown)
+* [Implementation Details](#-implementation-details)
+* [Getting Started](#-getting-started)
+* [Example Usage](#-example-usage)
+* [Contributing](#-contributing)
+
 ## 🎯 Goal
 
 The primary objective of this repository is to showcase **decision-making statements** in Java.
